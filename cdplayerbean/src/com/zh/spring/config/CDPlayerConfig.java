@@ -27,16 +27,16 @@ import org.springframework.stereotype.Component;
 public class CDPlayerConfig {
     //带有@Bean注解的方法可以采用任何必要的Java功能来产生bean实例。 构造器和Setter方法只是@Bean方法的两个简单样例。
     //这里所存在的可能性仅仅受到Java语言的限制。
+    @Bean
+    public CompactDisc sgtPeppers(){
+        return new SgtPeppers();
+    }
 //    @Bean
-//    public CompactDisc sgtPeppers(){
-//        return new SgtPeppers();
+//    public MediaPlayer cdPlayer(){
+//        return new CDPlayer(sgtPeppers());
 //    }
-////    @Bean
-////    public MediaPlayer cdPlayer(){
-////        return new CDPlayer(sgtPeppers());
-////    }
-//    @Bean
-//    public MediaPlayer cdPlayer(CompactDisc cd){
-//        return new CDPlayer(cd);
-//    }
+    @Bean
+    public MediaPlayer cdPlayer(CompactDisc cd){
+        return new CDPlayer(cd);
+    }
 }
