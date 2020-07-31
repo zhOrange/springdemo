@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/cdplayerbean/cdplayerbean.iml" filepath="$PROJECT_DIR$/cdplayerbean/cdplayerbean.iml" />
       <module fileurl="file://$PROJECT_DIR$/simplespringdemo/simplespringdemo.iml" filepath="$PROJECT_DIR$/simplespringdemo/simplespringdemo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springaspectdemo/springaspectdemo.iml" filepath="$PROJECT_DIR$/springaspectdemo/springaspectdemo.iml" />
       <module fileurl="file://$PROJECT_DIR$/springdemo.iml" filepath="$PROJECT_DIR$/springdemo.iml" />
     </modules>
   </component>
